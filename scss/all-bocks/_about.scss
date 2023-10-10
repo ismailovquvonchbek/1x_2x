@@ -1,0 +1,33 @@
+.about {
+    .container {
+        background-image: url("../img/about1x.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 1111px;
+        height: 196px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 200px;
+        margin-top: 136px;
+    }
+}
+
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+
+
+    .about .container {
+        background-image: url("../img/about@2x.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 1111px;
+        height: 196px;
+    }
+}
